@@ -13,7 +13,7 @@ def new_user():
         for _ in range(cant_registro):
             usuario = input('Coloque su usuario: ')
             contraseña = input('Coloque su contraseña: ')
-            id += 1  # Incrementa el ID para cada registro
+            id += 1  
             datos.append({
                 'ID': id,
                 'Nombre': usuario,
